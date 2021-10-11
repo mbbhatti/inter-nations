@@ -16,6 +16,7 @@ DATABASE_URL="mysql://db_user:db_password@host:port/db_name
 ```
 
 Use following commands to create and run migration for your database.
+- mkdir migrations ```(use if migrations folder not created)```
 - php bin/console make:migration
 - php bin/console doctrine:migrations:migrate 
 
